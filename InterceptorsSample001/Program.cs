@@ -32,10 +32,10 @@ namespace InterceptorsSample001
         }
 
         [InterceptsLocation("""C:\NETConf\2023\NET_CONF_TW_2023_Samples\InterceptorsSample001\Program.cs""", line: 13, character: 21)] 
-        public static void LoggingInterceptorMethod(this Example c, string s)
+        public static void LoggingInterceptorMethod(this Example example, string param)
         {
             Console.WriteLine("Before...");
-            c.MyMethod(s);
+            example.MyMethod(param);
             Console.WriteLine("After...");
         }
     } 
