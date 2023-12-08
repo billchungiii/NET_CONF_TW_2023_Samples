@@ -7,10 +7,10 @@ namespace InterceptorsSample001
     {
         static void Main(string[] args)
         {
-            var example = new MyClass();
-            example.MyMethod("World");
-            example.MyMethod("World");
-            example.MyMethod("World");
+            var instance = new MyClass();
+            instance.MyMethod("World");
+            instance.MyMethod("World");
+            instance.MyMethod("World");
         }
     }
 
@@ -24,14 +24,14 @@ namespace InterceptorsSample001
 
     public static class GeneratedCode
     {
-        [InterceptsLocation("""C:\NETConf\2023\NET_CONF_TW_2023_Samples\InterceptorsSample001\Program.cs""", line: 11, character: 21)]
-        [InterceptsLocation("""C:\NETConf\2023\NET_CONF_TW_2023_Samples\InterceptorsSample001\Program.cs""", 12, 21)]
+        [InterceptsLocation("""C:\NETConf\2023\NET_CONF_TW_2023_Samples\InterceptorsSample001\Program.cs""", line: 11, character: 22)]
+        [InterceptsLocation("""C:\NETConf\2023\NET_CONF_TW_2023_Samples\InterceptorsSample001\Program.cs""", 12, 22)]
         public static void MyInterceptorMethod(this MyClass instance, string param)
         {
             Console.WriteLine($"Interceptor {param}");
         }
 
-        [InterceptsLocation("""C:\NETConf\2023\NET_CONF_TW_2023_Samples\InterceptorsSample001\Program.cs""", 13, 21)]
+        [InterceptsLocation("""C:\NETConf\2023\NET_CONF_TW_2023_Samples\InterceptorsSample001\Program.cs""", 13, 22)]
         public static void LoggingInterceptorMethod(this MyClass instance, string param)
         {
             Console.WriteLine("loggin before...");
