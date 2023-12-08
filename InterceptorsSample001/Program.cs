@@ -34,9 +34,9 @@ namespace InterceptorsSample001
         [InterceptsLocation("""C:\NETConf\2023\NET_CONF_TW_2023_Samples\InterceptorsSample001\Program.cs""", 13, 22)]
         public static void LoggingInterceptorMethod(this MyClass instance, string param)
         {
-            Console.WriteLine("loggin before...");
+            Console.WriteLine("logging before...");
             instance.MyMethod(param);
-            Console.WriteLine("loggon after...");
+            Console.WriteLine("logging after...");
         }
     }
 }
