@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefReadonlySample001", "Ref
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterceptorsSample001", "InterceptorsSample001\InterceptorsSample001.csproj", "{05D28248-CB45-4C5E-A77F-03A9D8CEF017}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticVirtualMemberSample001", "StaticVirtualMemberSample001\StaticVirtualMemberSample001.csproj", "{FE1FC066-1D12-423A-9FFC-62B3C10177D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticVirtualMemberSample001", "StaticVirtualMemberSample001\StaticVirtualMemberSample001.csproj", "{FE1FC066-1D12-423A-9FFC-62B3C10177D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericMathSample001", "GenericMathSample001\GenericMathSample001.csproj", "{78B48742-4122-47DA-B496-3669E49E3F8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericMathSample001", "GenericMathSample001\GenericMathSample001.csproj", "{78B48742-4122-47DA-B496-3669E49E3F8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListPatternsSample001", "ListPatternsSample001\ListPatternsSample001.csproj", "{C08EC839-AEB7-4E2A-BE68-4BD74235BD10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{78B48742-4122-47DA-B496-3669E49E3F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78B48742-4122-47DA-B496-3669E49E3F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78B48742-4122-47DA-B496-3669E49E3F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C08EC839-AEB7-4E2A-BE68-4BD74235BD10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08EC839-AEB7-4E2A-BE68-4BD74235BD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08EC839-AEB7-4E2A-BE68-4BD74235BD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08EC839-AEB7-4E2A-BE68-4BD74235BD10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
