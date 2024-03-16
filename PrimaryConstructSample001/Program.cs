@@ -21,6 +21,18 @@
         public int Age { get; } = age;
         public string Memo { get; } = memo;
     }
+    //public class Person
+    //{
+    //    public Person(string name, int age, string memo)
+    //    {
+    //        Name = name;
+    //        Age = age;
+    //        Memo = memo;
+    //    }
+    //    public string Name { get; }
+    //    public int Age { get; }
+    //    public string Memo { get; }
+    //}
 
     public struct Student(string name, int score)
     {
