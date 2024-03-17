@@ -1,6 +1,8 @@
 ﻿using MyPoint = (int x, int y); 
-// 需全名
+// 需全名, 以前就可用
 using MyRange = System.Tuple<int, int>;
+using Numbers = int[];
+// 以前可用
 //using Scores = System.Collections.Generic.List<int>; global using
 namespace AliasAnyTypeSample001
 {
@@ -8,7 +10,7 @@ namespace AliasAnyTypeSample001
     {
         static void Main(string[] args)
         {
-            MyPoint p = new MyPoint(10, 90);
+            MyPoint p = new MyPoint(10, 90);            
             Console.WriteLine(p.ToString());
             MyRange r = new MyRange(1, 10);
             Console.WriteLine(r.ToString());
@@ -18,6 +20,8 @@ namespace AliasAnyTypeSample001
             {
                 Console.WriteLine(item.ToString());
             }
+            Numbers numbers = [1,2,3,4,5,6,7,8,9,10];
+
         }
     }
 }
