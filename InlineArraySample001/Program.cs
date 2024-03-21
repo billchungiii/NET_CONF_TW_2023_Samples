@@ -40,7 +40,8 @@ namespace InlineArraySample001
 
         public static void UseCustomInlineArray()
         {
-            MyInlineArray buffer = new MyInlineArray();
+            MyInlineArray arr = new MyInlineArray();
+            ref MyInlineArray buffer = ref arr;
             PrivateImplementationDetails.InlineArrayAsSpan<MyInlineArray, int>(ref buffer, 10);
             for (int index = 0; index < 10; ++index)
             {
